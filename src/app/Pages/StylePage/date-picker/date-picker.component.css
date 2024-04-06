@@ -1,0 +1,8 @@
+.upload-btn {
+  border-radius: 3px;
+  border-color:gainsboro;
+  height:34px;
+  outline:none;
+  margin-left:18px;
+  background-color:lightgray;
+}

@@ -1,0 +1,23 @@
+<div style="margin-top:30px;">
+  <!--<input type="file" class="file-input"
+         [accept]="requiredFileType"
+         (change)="onFileSelected($event)" #fileUpload>-->
+  <span style="font-size:15px;font-weight:500;margin-left:20px;">Upload File</span>
+  <button mat-mini-fab color="primary" class="upload-btn"
+          (click)="onFileSelected($event)"
+          style="">
+    Attach File
+  </button>
+  <mat-icon class="cancel-upload" (click)="cancelUpload()"
+            *ngIf="uploadProgress">delete_forever</mat-icon>
+</div>
+
+
+<!--<div style="margin-top: 50px;">
+  <input type="file" class="file-input" [accept]="requiredFileType" #fileUpload>
+  <label for="fileUpload" class="upload-btn">
+    <mat-icon>attach_file</mat-icon>
+    Attach File
+  </label>
+  <mat-icon class="cancel-upload" (click)="cancelUpload()" *ngIf="uploadProgress">delete_forever</mat-icon>
+</div>-->

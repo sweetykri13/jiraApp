@@ -1,0 +1,143 @@
+<!--<div>
+  <div style="border-bottom: groove; border-bottom: 1px solid gainsboro;">
+    <h1 mat-dialog-title style="margin-bottom:5px;height:50px;">Create Issue</h1>
+  </div>
+  <div>
+    <mat-dialog-content>-->
+      <!-- Project Selection -->
+      <!--<div style="border-bottom: groove;border-bottom: 1px solid gainsboro;">
+        <span style="margin-bottom:160px;font-size:29px;font-weight:500">*Project</span>
+        <select name="projectName" [(ngModel)]="ticketObj.projectId" style="width: 280px; height: 33px; border-radius: 4px; margin-bottom: 16px; margin-top: 3px;margin-left:10px; ">
+          <option *ngFor="let pro of projectList" [value]="pro.projectId">{{pro.projectName}}</option>
+        </select>
+      </div>-->
+
+
+      <!-- Issue Type and Status Selection -->
+      <!--<div style="margin-top:25px;">
+        <span style="margin-right:211px;">*Issue Type</span>
+        <span style="margin-left:-11px">*Status</span>
+        <div>
+          <select name="issueType" [(ngModel)]="ticketObj.issueType" style="width: 247px; height: 33px; border-radius: 4px; margin-bottom: 19px; margin-right: 39px; margin-top: 7px;">
+            <option *ngFor="let type of IssueType" [value]="type">{{type}}</option>
+          </select>
+          <select name="status" [(ngModel)]="ticketObj.status" style="width: 247px; height: 33px; border-radius: 4px; margin-bottom: 19px; margin-top: 7px; ">
+            <option *ngFor="let sta of statuss" [value]="sta">{{sta}}</option>
+          </select>
+        </div>
+      </div>-->
+
+      <!-- Assignee and Reporter Selection -->
+      <!--<div style="margin-top:10px">
+        <span style="margin-right:211px;">*Assignee</span>
+        <span style="margin-left:-3px;">*Reporter</span>
+        <div>
+          <select name="assignedTo" [(ngModel)]="ticketObj.assignedTo" style="width: 247px; height: 33px; border-radius: 4px; margin-bottom: 19px; margin-top: 7px; margin-right: 39px; ">
+            <option *ngFor="let sta of userList" [value]="sta.userId">{{sta.fullName}}</option>
+          </select>
+          <select name="createdBy" [(ngModel)]="ticketObj.createdBy" style="width: 247px; height: 33px; border-radius: 4px; margin-bottom: 19px; margin-top: 7px; ">
+            <option *ngFor="let sta of userList" [value]="sta.fullName">{{sta.fullName}}</option>
+          </select>
+        </div>
+      </div>-->
+
+      <!-- Summary and Description Inputs -->
+      <!--<div>
+        <span>*Summary</span>
+        <div>
+          <input type="text" name="summary" [(ngModel)]="ticketObj.summary" style="width: 526px; border-radius: 4px; height: 36px; margin-bottom: 21px; margin-top: 7px;" />
+        </div>
+      </div>
+      <div>
+        <span>*Description</span>
+        <div>
+          <input type="text" name="description" [(ngModel)]="ticketObj.description" style="width: 526px; border-radius: 4px; height: 103px; margin-bottom: 24px; margin-top: 7px; " />
+        </div>
+      </div>
+    </mat-dialog-content>
+  </div>-->
+
+  <!-- Action Buttons -->
+  <!--<div style="margin-left:370px;">
+    <mat-dialog-actions>
+      <button mat-button mat-dialog-close style="margin-right:17px;color:white" class="btn bg-primary">Cancel</button>
+      <button mat-button [mat-dialog-close]="true" class="btn bg-primary" style="color:white" (click)="createTicket(ticketObj.summary,ticketObj.storyPoint, ticketObj.status, ticketObj.assignedTo, ticketObj.projectShortName, ticketObj.description, ticketObj.createdBy,ticketObj.projectId)">Create</button>
+    </mat-dialog-actions>
+  </div>
+</div>-->
+
+
+<!--<div>
+  <div style="border-bottom: groove; border-bottom: 2px solid gainsboro;">
+    <h1 mat-dialog-title style="margin-bottom: 5px; height: 54px; color: #172B4D">Create Issue</h1>
+  </div>
+  <div>
+    <mat-dialog-content>-->
+      <!-- Project Selection -->
+      <!--<div style="border-bottom: groove;border-bottom: 1px solid gainsboro;">
+        <div>
+          <span style="font-size: 15px; margin-left:43px; font-weight:500">*Project</span>
+          <select name="projectName" [(ngModel)]="ticketObj.projectId" class="dropfield" style="margin-left:20px;">
+            <option style="height:30px;" *ngFor="let pro of projectList" [value]="pro.projectId">{{pro.projectName}}</option>
+          </select>
+        </div>
+        <div>
+          <span style="font-size: 15px; margin-left:13px; font-weight:500">**Issue Type</span>
+          <select name="issueType" [(ngModel)]="ticketObj.issueType" class="dropfield" style="margin-left:20px;">
+            <option style="height:30px;" *ngFor="let type of IssueType" [value]="type">{{type}}</option>
+          </select>
+        </div>
+      </div>-->
+      <!-- Issue Type and Status Selection -->
+      <!--<div style="margin-top:-4px;">
+        <div>
+          <span style="font-size: 15px;margin-left:46px; font-weight: 500">*Status</span>
+          <select name="status" [(ngModel)]="ticketObj.status" class="dropfield" style="margin-left:22px;">
+            <option style="height:30px;" *ngFor="let sta of statuss" [value]="sta">{{sta}}</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <span style="font-size: 15px; margin-left:22px; font-weight:500">**Assignee</span>
+        <select name="assignedTo" [(ngModel)]="ticketObj.assignedTo" class="dropfield" style="margin-left:20px;">
+          <option style="height:30px;" *ngFor="let sta of userList" [value]="sta.userId">{{sta.fullName}}</option>
+        </select>
+      </div>
+      <div>
+        <span style="font-size: 15px; margin-left:26px; font-weight:500">**Reporter</span>
+        <select name="createdBy" [(ngModel)]="ticketObj.createdBy" class="dropfield" style="margin-left:20px;">
+          <option style="height:30px;" *ngFor="let sta of userList" [value]="sta.fullName">{{sta.fullName}}</option>
+        </select>
+      </div>
+      <div style="">
+        <span style="margin-bottom:160px;margin-left:34px; font-size:15px;font-weight:500">*Sumarry</span>
+        <input name="summary" [(ngModel)]="ticketObj.summary" matInput style="margin-bottom:15px;height:35px; margin-left: 22px;width:524px; border-radius: 3px;" type="text" placeholder="story point" />--> <!-- Added matInput -->
+      <!--</div>-->
+      <!-- Assignee and Reporter Selection -->
+      <!--<div style="margin-top:10px">
+        <span style=" font-size: 15px;margin-left:35px; font-weight: 500">*Deadline</span>
+        <input type="date" style="margin-left: 19px; border-radius: 3px;" class="dropfield">
+      </div>-->
+
+      <!--<div>
+      </div>
+      <div>
+        <span style="font-size: 15px;margin-left:17px; font-weight:500">*Description</span>
+
+        <input type="text" style="margin-left:15px; width: 526px; border-radius:4px; height: 164px; margin-top: 7px; " />
+
+      </div>
+      <div style="">
+        <app-date-picker></app-date-picker>
+      </div>
+    </mat-dialog-content>
+  </div>-->
+
+  <!-- Action Buttons -->
+  <!--<div>
+    <mat-dialog-actions style="">
+      <button mat-button mat-dialog-close class=" btn bg-primary" style="color: white; margin-right: 20px; margin-left: 290px;">Cancel</button>
+      <button mat-button [mat-dialog-close]="true" class="btn bg-primary" style="color:white" (click)="createTicket(ticketObj.summary,ticketObj.storyPoint, ticketObj.status, ticketObj.assignedTo, ticketObj.projectShortName, ticketObj.description, ticketObj.createdBy,ticketObj.projectId)">Create</button>
+    </mat-dialog-actions>
+  </div>
+</div>-->

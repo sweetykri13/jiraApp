@@ -25,9 +25,15 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              },
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -60,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "jiraApp:build:production"
+              "buildTarget": "jiraApp:build:production"
             },
             "development": {
-              "browserTarget": "jiraApp:build:development"
+              "buildTarget": "jiraApp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "jiraApp:build"
+            "buildTarget": "jiraApp:build"
           }
         },
         "test": {
@@ -87,6 +93,10 @@
               "src/assets"
             ],
             "styles": [
+              {
+                "input": "node_modules/@progress/kendo-theme-default/dist/all.css"
+              },
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7cae49c1-50cc-4174-bc1a-c9864cee6721"
   }
 }

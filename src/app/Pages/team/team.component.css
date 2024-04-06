@@ -1,0 +1,24 @@
+
+
+th.mat-sort-header-button {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+td, th {
+  padding: 6px;
+  text-align: left;
+}
+
+.mat-row:hover {
+  background-color: #f2f2f2;
+}
+@media (min-width: 1400px)
+.container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+  max-width: 579px;
+}

@@ -1,0 +1,46 @@
+<div style="width:243px;margin-top:25px;border:1px solid gainsboro" [class.open]="isOpen" id="mySidenav" class="sidenav" data-bs-scroll="true" tabindex="-1" aria-labelledby="offcanvasWithBothOptionsLabel" data-bs-backdrop="false">
+  <div class="offcanvas-header" style="border-bottom:2px solid gainsboro;margin-bottom:4px;">
+    <h5 style="font-weight: 500; font-size: 18px; margin-top: -19px; margin-bottom: 10px; color: #626F86; padding-bottom: 26px; padding-left: 12px;" class="offcanvas-title" id="offcanvasWithBothOptionsLabel">My Scrum Project</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="margin-left: 48px;font-size:19px; margin-bottom: 60px;" (click)="closeNav()"></button>
+    <div>
+      <span style="margin-top: 64px; margin-left: -202px; color: darkgrey;">Software project</span>
+    </div>
+  </div>
+  <div class="offcanvas-body">
+    <div style="margin-top:20px;margin-bottom:22px;">
+      <p [routerLink]="['/board']">Board</p>
+    </div>
+    <div style="margin-bottom:22px;">
+      <p [routerLink]="['/project']">Projects</p>
+    </div>
+    <div style="margin-bottom:22px;">
+      <p>Current sprint</p>
+    </div>
+    <div style="margin-bottom:22px;">
+      <p [routerLink]="['/sprint']">Sprint</p>
+    </div>
+    <div style="margin-bottom:22px;">
+      <p [routerLink]="['/issue']">Issue</p>
+    </div>
+    <div style="margin-bottom:33px;">
+      <p (click)="toggleSearchInput()">Search People</p>
+    </div>
+    <div style="margin-bottom: 17px;margin-top:-30px;margin-left:37px;">
+      <input type="text" *ngIf="searchVisible" placeholder="Search" style="border: 2px solid gainsboro; background-image: url('assets/search.svg'); background-repeat: no-repeat; background-position: 10px center; font-size: 17px; color: #344563; border-radius: 3px; width: 90%; height: 32px; padding-left: 36px; " />
+    </div>
+    <div style="border-bottom: 2px solid gainsboro">
+      <div style="margin-bottom:30px;">
+        <p style="padding-top:20px;" [routerLink]="['/yourTeam']">Teams</p>
+      </div>
+    </div>
+    <div style="margin-bottom:12px;margin-top:16px">
+      <p (click)="OpenFeedbackModel()">Give feedback</p>
+    </div>
+    <div style="font-size: 12px; font-weight: 500;">
+      <p (click)="LearnMoreSideBar()">Learn More</p>
+    </div>
+  </div>
+  <div>
+  </div>
+</div>
+<app-learn-more-side-bar [isOpen]="LearnMoreSidebar" (close)="closeSideBar()"></app-learn-more-side-bar>

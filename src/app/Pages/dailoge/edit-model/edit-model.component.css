@@ -1,0 +1,40 @@
+/* Adjust margin between buttons */
+.mat-dialog-actions button {
+  margin-right: 10px; /* Add space between buttons */
+}
+
+  /* Style the Cancel button */
+  .mat-dialog-actions button.mat-button {
+    /* Add custom styles here */
+  }
+
+.mat-dialog-content {
+  margin-bottom: 70px;
+}
+/* Style the Delete button */
+.mat-dialog-actions button.mat-button[mat-dialog-close="true"] {
+  background-color: #f44336; /* Red background color */
+  color: white; /* White text color */
+  height: 40px; /* Set height */
+  width: 100px; /* Set width */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+}
+.cancelbutton {
+  margin-right: 14px;
+  background-color: gray;
+  color: white;
+  border: blue;
+  border-radius: 4px;
+  height: 37px;
+  width: 78px;
+}
+
+.deletebutton {
+  margin-right: 12px;
+  background-color: #0052CC;
+  color: white;
+  border: blue;
+  border-radius: 4px;
+  height: 37px;
+  width: 78px;
+}

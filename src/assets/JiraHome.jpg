@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<!-- saved from url=(0079)https://id.atlassian.com/logout?continue=https%3A%2F%2Fbellacutie.atlassian.net -->
+<html lang="en" data-theme="dark:dark light:light spacing:spacing" data-color-mode="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Log in to Jira, Confluence, and all other Atlassian Cloud products here. Not an Atlassian user? Sign up for free."><meta name="google-site-verification" content="HNNnCkeVQ-w56fqPpX2TTEMRmta5QJ-bDunwoaUep-o"><meta name="" content=""><meta name="" content=""><link rel="icon shortcut" href="https://id-frontend.prod-east.frontend.public.atl-paas.net/assets/favicon.9500e2a9.ico" crossorigin="anonymous"><link rel="preconnect" href="https://accounts.google.com/" crossorigin=""><link rel="preconnect" href="https://api.segment.io/" crossorigin=""><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link rel="preconnect" href="https://sentry.io/" crossorigin=""><link rel="preconnect" href="https://t.castle.io/" crossorigin=""><link rel="preconnect" href="https://www.gstatic.com/" crossorigin=""><link rel="preconnect" href="https://www.recaptcha.net/" crossorigin=""><link rel="stylesheet" href="./JiraHome_files/index.6e712bd8.css" crossorigin="anonymous"><script nomodule="" defer="" src="./JiraHome_files/index.60ea3d96.js.download" crossorigin="anonymous"></script><script type="module" src="./JiraHome_files/index.ee05cf03.js.download" crossorigin="anonymous"></script><script src="./JiraHome_files/1271fcf5ddad45a1846153219eb726bd.min.js.download" crossorigin=""></script><title>Log out of your Atlassian account - Log in with Atlassian account</title><style nonce="">#root{height:100%}.grecaptcha-badge{visibility:hidden}.scriptLoadError{letter-spacing:-.005em;background-color:#0747a6;align-content:center;width:100%;height:100%;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-size:14px;font-style:normal;font-weight:400;line-height:1.42857;display:flex;position:absolute;top:0;left:0}.scriptLoadError .container{color:#fff;flex-direction:column;align-items:center;margin:0 auto;display:flex}.scriptLoadError .content{box-sizing:border-box;color:#172b4d;background:#fff;border-radius:3px;width:400px;margin-top:48px;padding:48px;box-shadow:0 10px 10px #0000001a}.scriptLoadError .content p:first-of-type{margin-top:0}.scriptLoadError .content a{color:#0052cc;text-decoration:none}.scriptLoadError .logo{margin-top:48px;margin-bottom:0;font-size:40px;line-height:48px}.scriptLoadError .heading{color:#deebff;margin-top:48px;font-size:24px;font-weight:500;line-height:28px}</style><style data-emotion="css" data-s=""></style><style data-emotion="css"></style><style data-theme="spacing">
+html[data-theme~="spacing:spacing"] {
+  --ds-space-0: 0rem;
+  --ds-space-025: 0.125rem;
+  --ds-space-050: 0.25rem;
+  --ds-space-075: 0.375rem;
+  --ds-space-100: 0.5rem;
+  --ds-space-150: 0.75rem;
+  --ds-space-200: 1rem;
+  --ds-space-250: 1.25rem;
+  --ds-space-300: 1.5rem;
+  --ds-space-400: 2rem;
+  --ds-space-500: 2.5rem;
+  --ds-space-600: 3rem;
+  --ds-space-800: 4rem;
+  --ds-space-1000: 5rem;
+  --ds-space-negative-025: -0.125rem;
+  --ds-space-negative-050: -0.25rem;
+  --ds-space-negative-075: -0.375rem;
+  --ds-space-negative-100: -0.5rem;
+  --ds-space-negative-150: -0.75rem;
+  --ds-space-negative-200: -1rem;
+  --ds-space-negative-250: -1.25rem;
+  --ds-space-negative-300: -1.5rem;
+  --ds-space-negative-400: -2rem;
+}
+</style><style data-theme="light">
+html[data-color-mode="light"][data-theme~="light:light"],
+html[data-color-mode="dark"][data-theme~="dark:light"] {
+  color-scheme: light;
+  --ds-text: #172B4D;
+  --ds-text-accent-lime: #4C6B1F;
+  --ds-text-accent-lime-bolder: #37471F;
+  --ds-text-accent-red: #AE2E24;
+  --ds-text-accent-red-bolder: #5D1F1A;
+  --ds-text-accent-orange: #A54800;
+  --ds-text-accent-orange-bolder: #702E00;
+  --ds-text-accent-yellow: #7F5F01;
+  --ds-text-accent-yellow-bolder: #533F04;
+  --ds-text-accent-green: #216E4E;
+  --ds-text-accent-green-bolder: #164B35;
+  --ds-text-accent-teal: #206A83;
+  --ds-text-accent-teal-bolder: #164555;
+  --ds-text-accent-blue: #0055CC;
+  --ds-text-accent-blue-bolder: #09326C;
+  --ds-text-accent-purple: #5E4DB2;
+  --ds-text-accent-purple-bolder: #352C63;
+  --ds-text-accent-magenta: #943D73;
+  --ds-text-accent-magenta-bolder: #50253F;
+  --ds-text-accent-gray: #44546F;
+  --ds-text-accent-gray-bolder: #091E42;
+  --ds-text-disabled: #091E424F;
+  --ds-text-inverse: #FFFFFF;
+  --ds-text-selected: #0C66E4;
+  --ds-text-brand: #0C66E4;
+  --ds-text-danger: #AE2E24;
+  --ds-text-warning: #A54800;
+  --ds-text-warning-inverse: #172B4D;
+  --ds-text-success: #216E4E;
+  --ds-text-discovery: #5E4DB2;
+  --ds-text-information: #0055CC;
+  --ds-text-subtlest: #626F86;
+  --ds-text-subtle: #44546F;
+  --ds-link: #0C66E4;
+  --ds-link-pressed: #0055CC;
+  --ds-link-visited: #5E4DB2;
+  --ds-icon: #44546F;
+  --ds-icon-accent-lime: #6A9A23;
+  --ds-icon-accent-red: #C9372C;
+  --ds-icon-accent-orange: #E56910;
+  --ds-icon-accent-yellow: #B38600;
+  --ds-icon-accent-green: #22A06B;
+  --ds-icon-accent-teal: #2898BD;
+  --ds-icon-accent-blue: #1D7AFC;
+  --ds-icon-accent-purple: #8270DB;
+  --ds-icon-accent-magenta: #CD519D;
+  --ds-icon-accent-gray: #758195;
+  --ds-icon-disabled: #091E424F;
+  --ds-icon-inverse: #FFFFFF;
+  --ds-icon-selected: #0C66E4;
+  --ds-icon-brand: #0C66E4;
+  --ds-icon-danger: #C9372C;
+  --ds-icon-warning: #E56910;
+  --ds-icon-warning-inverse: #172B4D;
+  --ds-icon-success: #22A06B;
+  --ds-icon-discovery: #8270DB;
+  --ds-icon-information: #1D7AFC;
+  --ds-icon-subtle: #626F86;
+  --ds-border: #091E4224;
+  --ds-border-accent-lime: #6A9A23;
+  --ds-border-accent-red: #E2483D;
+  --ds-border-accent-orange: #E56910;
+  --ds-border-accent-yellow: #B38600;
+  --ds-border-accent-green: #22A06B;
+  --ds-border-accent-teal: #2898BD;
+  --ds-border-accent-blue: #1D7AFC;
+  --ds-border-accent-purple: #8270DB;
+  --ds-border-accent-magenta: #CD519D;
+  --ds-border-accent-gray: #758195;
+  --ds-border-disabled: #091E420F;
+  --ds-border-focused: #388BFF;
+  --ds-border-input: #091E4224;
+  --ds-border-inverse: #FFFFFF;
+  --ds-border-selected: #0C66E4;
+  --ds-border-brand: #0C66E4;
+  --ds-border-danger: #E2483D;
+  --ds-border-warning: #E56910;
+  --ds-border-success: #22A06B;
+  --ds-border-discovery: #8270DB;
+  --ds-border-information: #1D7AFC;
+  --ds-border-bold: #758195;
+  --ds-background-accent-lime-subtlest: #EFFFD6;
+  --ds-background-accent-lime-subtlest-hovered: #D3F1A7;
+  --ds-background-accent-lime-subtlest-pressed: #B3DF72;
+  --ds-background-accent-lime-subtler: #D3F1A7;
+  --ds-background-accent-lime-subtler-hovered: #B3DF72;
+  --ds-background-accent-lime-subtler-pressed: #94C748;
+  --ds-background-accent-lime-subtle: #94C748;
+  --ds-background-accent-lime-subtle-hovered: #B3DF72;
+  --ds-background-accent-lime-subtle-pressed: #D3F1A7;
+  --ds-background-accent-lime-bolder: #5B7F24;
+  --ds-background-accent-lime-bolder-hovered: #4C6B1F;
+  --ds-background-accent-lime-bolder-pressed: #37471F;
+  --ds-background-accent-red-subtlest: #FFECEB;
+  --ds-background-accent-red-subtlest-hovered: #FFD5D2;
+  --ds-background-accent-red-subtlest-pressed: #FD9891;
+  --ds-background-accent-red-subtler: #FFD5D2;
+  --ds-background-accent-red-subtler-hovered: #FD9891;
+  --ds-background-accent-red-subtler-pressed: #F87168;
+  --ds-background-accent-red-subtle: #F87168;
+  --ds-background-accent-red-subtle-hovered: #FD9891;
+  --ds-background-accent-red-subtle-pressed: #FFD5D2;
+  --ds-background-accent-red-bolder: #C9372C;
+  --ds-background-accent-red-bolder-hovered: #AE2E24;
+  --ds-background-accent-red-bolder-pressed: #5D1F1A;
+  --ds-background-accent-orange-subtlest: #FFF3EB;
+  --ds-background-accent-orange-subtlest-hovered: #FEDEC8;
+  --ds-background-accent-orange-subtlest-pressed: #FEC195;
+  --ds-background-accent-orange-subtler: #FEDEC8;
+  --ds-background-accent-orange-subtler-hovered: #FEC195;
+  --ds-background-accent-orange-subtler-pressed: #FEA362;
+  --ds-background-accent-orange-subtle: #FEA362;
+  --ds-background-accent-orange-subtle-hovered: #FEC195;
+  --ds-background-accent-orange-subtle-pressed: #FEDEC8;
+  --ds-background-accent-orange-bolder: #C25100;
+  --ds-background-accent-orange-bolder-hovered: #A54800;
+  --ds-background-accent-orange-bolder-pressed: #702E00;
+  --ds-background-accent-yellow-subtlest: #FFF7D6;
+  --ds-background-accent-yellow-subtlest-hovered: #F8E6A0;
+  --ds-background-accent-yellow-subtlest-pressed: #F5CD47;
+  --ds-background-accent-yellow-subtler: #F8E6A0;
+  --ds-background-accent-yellow-subtler-hovered: #F5CD47;
+  --ds-background-accent-yellow-subtler-pressed: #E2B203;
+  --ds-background-accent-yellow-subtle: #F5CD47;
+  --ds-background-accent-yellow-subtle-hovered: #E2B203;
+  --ds-background-accent-yellow-subtle-pressed: #CF9F02;
+  --ds-background-accent-yellow-bolder: #946F00;
+  --ds-background-accent-yellow-bolder-hovered: #7F5F01;
+  --ds-background-accent-yellow-bolder-pressed: #533F04;
+  --ds-background-accent-green-subtlest: #DCFFF1;
+  --ds-background-accent-green-subtlest-hovered: #BAF3DB;
+  --ds-background-accent-green-subtlest-pressed: #7EE2B8;
+  --ds-background-accent-green-subtler: #BAF3DB;
+  --ds-background-accent-green-subtler-hovered: #7EE2B8;
+  --ds-background-accent-green-subtler-pressed: #4BCE97;
+  --ds-background-accent-green-subtle: #4BCE97;
+  --ds-background-accent-green-subtle-hovered: #7EE2B8;
+  --ds-background-accent-green-subtle-pressed: #BAF3DB;
+  --ds-background-accent-green-bolder: #1F845A;
+  --ds-background-accent-green-bolder-hovered: #216E4E;
+  --ds-background-accent-green-bolder-pressed: #164B35;
+  --ds-background-accent-teal-subtlest: #E7F9FF;
+  --ds-background-accent-teal-subtlest-hovered: #C6EDFB;
+  --ds-background-accent-teal-subtlest-pressed: #9DD9EE;
+  --ds-background-accent-teal-subtler: #C6EDFB;
+  --ds-background-accent-teal-subtler-hovered: #9DD9EE;
+  --ds-background-accent-teal-subtler-pressed: #6CC3E0;
+  --ds-background-accent-teal-subtle: #6CC3E0;
+  --ds-background-accent-teal-subtle-hovered: #9DD9EE;
+  --ds-background-accent-teal-subtle-pressed: #C6EDFB;
+  --ds-background-accent-teal-bolder: #227D9B;
+  --ds-background-accent-teal-bolder-hovered: #206A83;
+  --ds-background-accent-teal-bolder-pressed: #164555;
+  --ds-background-accent-blue-subtlest: #E9F2FF;
+  --ds-background-accent-blue-subtlest-hovered: #CCE0FF;
+  --ds-background-accent-blue-subtlest-pressed: #85B8FF;
+  --ds-background-accent-blue-subtler: #CCE0FF;
+  --ds-background-accent-blue-subtler-hovered: #85B8FF;
+  --ds-background-accent-blue-subtler-pressed: #579DFF;
+  --ds-background-accent-blue-subtle: #579DFF;
+  --ds-background-accent-blue-subtle-hovered: #85B8FF;
+  --ds-background-accent-blue-subtle-pressed: #CCE0FF;
+  --ds-background-accent-blue-bolder: #0C66E4;
+  --ds-background-accent-blue-bolder-hovered: #0055CC;
+  --ds-background-accent-blue-bolder-pressed: #09326C;
+  --ds-background-accent-purple-subtlest: #F3F0FF;
+  --ds-background-accent-purple-subtlest-hovered: #DFD8FD;
+  --ds-background-accent-purple-subtlest-pressed: #B8ACF6;
+  --ds-background-accent-purple-subtler: #DFD8FD;
+  --ds-background-accent-purple-subtler-hovered: #B8ACF6;
+  --ds-background-accent-purple-subtler-pressed: #9F8FEF;
+  --ds-background-accent-purple-subtle: #9F8FEF;
+  --ds-background-accent-purple-subtle-hovered: #B8ACF6;
+  --ds-background-accent-purple-subtle-pressed: #DFD8FD;
+  --ds-background-accent-purple-bolder: #6E5DC6;
+  --ds-background-accent-purple-bolder-hovered: #5E4DB2;
+  --ds-background-accent-purple-bolder-pressed: #352C63;
+  --ds-background-accent-magenta-subtlest: #FFECF8;
+  --ds-background-accent-magenta-subtlest-hovered: #FDD0EC;
+  --ds-background-accent-magenta-subtlest-pressed: #F797D2;
+  --ds-background-accent-magenta-subtler: #FDD0EC;
+  --ds-background-accent-magenta-subtler-hovered: #F797D2;
+  --ds-background-accent-magenta-subtler-pressed: #E774BB;
+  --ds-background-accent-magenta-subtle: #E774BB;
+  --ds-background-accent-magenta-subtle-hovered: #F797D2;
+  --ds-background-accent-magenta-subtle-pressed: #FDD0EC;
+  --ds-background-accent-magenta-bolder: #AE4787;
+  --ds-background-accent-magenta-bolder-hovered: #943D73;
+  --ds-background-accent-magenta-bolder-pressed: #50253F;
+  --ds-background-accent-gray-subtlest: #F1F2F4;
+  --ds-background-accent-gray-subtlest-hovered: #DCDFE4;
+  --ds-background-accent-gray-subtlest-pressed: #B3B9C4;
+  --ds-background-accent-gray-subtler: #DCDFE4;
+  --ds-background-accent-gray-subtler-hovered: #B3B9C4;
+  --ds-background-accent-gray-subtler-pressed: #8590A2;
+  --ds-background-accent-gray-subtle: #8590A2;
+  --ds-background-accent-gray-subtle-hovered: #B3B9C4;
+  --ds-background-accent-gray-subtle-pressed: #DCDFE4;
+  --ds-background-accent-gray-bolder: #626F86;
+  --ds-background-accent-gray-bolder-hovered: #44546F;
+  --ds-background-accent-gray-bolder-pressed: #2C3E5D;
+  --ds-background-disabled: #091E4208;
+  --ds-background-input: #FFFFFF;
+  --ds-background-input-hovered: #F7F8F9;
+  --ds-background-input-pressed: #FFFFFF;
+  --ds-background-inverse-subtle: #00000029;
+  --ds-background-inverse-subtle-hovered: #0000003D;
+  --ds-background-inverse-subtle-pressed: #00000052;
+  --ds-background-neutral: #091E420F;
+  --ds-background-neutral-hovered: #091E4224;
+  --ds-background-neutral-pressed: #091E424F;
+  --ds-background-neutral-subtle: #00000000;
+  --ds-background-neutral-subtle-hovered: #091E420F;
+  --ds-background-neutral-subtle-pressed: #091E4224;
+  --ds-background-neutral-bold: #44546F;
+  --ds-background-neutral-bold-hovered: #2C3E5D;
+  --ds-background-neutral-bold-pressed: #172B4D;
+  --ds-background-selected: #E9F2FF;
+  --ds-background-selected-hovered: #CCE0FF;
+  --ds-background-selected-pressed: #85B8FF;
+  --ds-background-selected-bold: #0C66E4;
+  --ds-background-selected-bold-hovered: #0055CC;
+  --ds-background-selected-bold-pressed: #09326C;
+  --ds-background-brand-subtlest: #E9F2FF;
+  --ds-background-brand-subtlest-hovered: #CCE0FF;
+  --ds-background-brand-subtlest-pressed: #85B8FF;
+  --ds-background-brand-bold: #0C66E4;
+  --ds-background-brand-bold-hovered: #0055CC;
+  --ds-background-brand-bold-pressed: #09326C;
+  --ds-background-brand-boldest: #1C2B41;
+  --ds-background-brand-boldest-hovered: #09326C;
+  --ds-background-brand-boldest-pressed: #0055CC;
+  --ds-background-danger: #FFECEB;
+  --ds-background-danger-hovered: #FFD5D2;
+  --ds-background-danger-pressed: #FD9891;
+  --ds-background-danger-bold: #C9372C;
+  --ds-background-danger-bold-hovered: #AE2E24;
+  --ds-background-danger-bold-pressed: #5D1F1A;
+  --ds-background-warning: #FFF7D6;
+  --ds-background-warning-hovered: #F8E6A0;
+  --ds-background-warning-pressed: #F5CD47;
+  --ds-background-warning-bold: #F5CD47;
+  --ds-background-warning-bold-hovered: #E2B203;
+  --ds-background-warning-bold-pressed: #CF9F02;
+  --ds-background-success: #DCFFF1;
+  --ds-background-success-hovered: #BAF3DB;
+  --ds-background-success-pressed: #7EE2B8;
+  --ds-background-success-bold: #1F845A;
+  --ds-background-success-bold-hovered: #216E4E;
+  --ds-background-success-bold-pressed: #164B35;
+  --ds-background-discovery: #F3F0FF;
+  --ds-background-discovery-hovered: #DFD8FD;
+  --ds-background-discovery-pressed: #B8ACF6;
+  --ds-background-discovery-bold: #6E5DC6;
+  --ds-background-discovery-bold-hovered: #5E4DB2;
+  --ds-background-discovery-bold-pressed: #352C63;
+  --ds-background-information: #E9F2FF;
+  --ds-background-information-hovered: #CCE0FF;
+  --ds-background-information-pressed: #85B8FF;
+  --ds-background-information-bold: #0C66E4;
+  --ds-background-information-bold-hovered: #0055CC;
+  --ds-background-information-bold-pressed: #09326C;
+  --ds-blanket: #091E427D;
+  --ds-blanket-selected: #388BFF14;
+  --ds-blanket-danger: #EF5C4814;
+  --ds-interaction-hovered: #00000029;
+  --ds-interaction-pressed: #00000052;
+  --ds-skeleton: #091E420F;
+  --ds-skeleton-subtle: #091E4208;
+  --ds-chart-categorical-1: #2898BD;
+  --ds-chart-categorical-1-hovered: #227D9B;
+  --ds-chart-categorical-2: #5E4DB2;
+  --ds-chart-categorical-2-hovered: #352C63;
+  --ds-chart-categorical-3: #E56910;
+  --ds-chart-categorical-3-hovered: #C25100;
+  --ds-chart-categorical-4: #943D73;
+  --ds-chart-categorical-4-hovered: #50253F;
+  --ds-chart-categorical-5: #09326C;
+  --ds-chart-categorical-5-hovered: #1C2B41;
+  --ds-chart-categorical-6: #8F7EE7;
+  --ds-chart-categorical-6-hovered: #8270DB;
+  --ds-chart-categorical-7: #50253F;
+  --ds-chart-categorical-7-hovered: #3D2232;
+  --ds-chart-categorical-8: #A54800;
+  --ds-chart-categorical-8-hovered: #702E00;
+  --ds-chart-lime-bold: #6A9A23;
+  --ds-chart-lime-bold-hovered: #5B7F24;
+  --ds-chart-lime-bolder: #5B7F24;
+  --ds-chart-lime-bolder-hovered: #4C6B1F;
+  --ds-chart-lime-boldest: #4C6B1F;
+  --ds-chart-lime-boldest-hovered: #37471F;
+  --ds-chart-neutral: #8590A2;
+  --ds-chart-neutral-hovered: #758195;
+  --ds-chart-red-bold: #F15B50;
+  --ds-chart-red-bold-hovered: #E2483D;
+  --ds-chart-red-bolder: #E2483D;
+  --ds-chart-red-bolder-hovered: #C9372C;
+  --ds-chart-red-boldest: #AE2E24;
+  --ds-chart-red-boldest-hovered: #5D1F1A;
+  --ds-chart-orange-bold: #E56910;
+  --ds-chart-orange-bold-hovered: #C25100;
+  --ds-chart-orange-bolder: #C25100;
+  --ds-chart-orange-bolder-hovered: #A54800;
+  --ds-chart-orange-boldest: #A54800;
+  --ds-chart-orange-boldest-hovered: #702E00;
+  --ds-chart-yellow-bold: #B38600;
+  --ds-chart-yellow-bold-hovered: #946F00;
+  --ds-chart-yellow-bolder: #946F00;
+  --ds-chart-yellow-bolder-hovered: #7F5F01;
+  --ds-chart-yellow-boldest: #7F5F01;
+  --ds-chart-yellow-boldest-hovered: #533F04;
+  --ds-chart-green-bold: #22A06B;
+  --ds-chart-green-bold-hovered: #1F845A;
+  --ds-chart-green-bolder: #1F845A;
+  --ds-chart-green-bolder-hovered: #216E4E;
+  --ds-chart-green-boldest: #216E4E;
+  --ds-chart-green-boldest-hovered: #164B35;
+  --ds-chart-teal-bold: #2898BD;
+  --ds-chart-teal-bold-hovered: #227D9B;
+  --ds-chart-teal-bolder: #227D9B;
+  --ds-chart-teal-bolder-hovered: #206A83;
+  --ds-chart-teal-boldest: #206A83;
+  --ds-chart-teal-boldest-hovered: #164555;
+  --ds-chart-blue-bold: #388BFF;
+  --ds-chart-blue-bold-hovered: #1D7AFC;
+  --ds-chart-blue-bolder: #1D7AFC;
+  --ds-chart-blue-bolder-hovered: #0C66E4;
+  --ds-chart-blue-boldest: #0055CC;
+  --ds-chart-blue-boldest-hovered: #09326C;
+  --ds-chart-purple-bold: #8F7EE7;
+  --ds-chart-purple-bold-hovered: #8270DB;
+  --ds-chart-purple-bolder: #8270DB;
+  --ds-chart-purple-bolder-hovered: #6E5DC6;
+  --ds-chart-purple-boldest: #5E4DB2;
+  --ds-chart-purple-boldest-hovered: #352C63;
+  --ds-chart-magenta-bold: #DA62AC;
+  --ds-chart-magenta-bold-hovered: #CD519D;
+  --ds-chart-magenta-bolder: #CD519D;
+  --ds-chart-magenta-bolder-hovered: #AE4787;
+  --ds-chart-magenta-boldest: #943D73;
+  --ds-chart-magenta-boldest-hovered: #50253F;
+  --ds-chart-gray-bold: #8590A2;
+  --ds-chart-gray-bold-hovered: #758195;
+  --ds-chart-gray-bolder: #758195;
+  --ds-chart-gray-bolder-hovered: #626F86;
+  --ds-chart-gray-boldest: #44546F;
+  --ds-chart-gray-boldest-hovered: #2C3E5D;
+  --ds-chart-brand: #1D7AFC;
+  --ds-chart-brand-hovered: #0C66E4;
+  --ds-chart-danger: #F15B50;
+  --ds-chart-danger-hovered: #E2483D;
+  --ds-chart-danger-bold: #AE2E24;
+  --ds-chart-danger-bold-hovered: #5D1F1A;
+  --ds-chart-warning: #B38600;
+  --ds-chart-warning-hovered: #946F00;
+  --ds-chart-warning-bold: #7F5F01;
+  --ds-chart-warning-bold-hovered: #533F04;
+  --ds-chart-success: #22A06B;
+  --ds-chart-success-hovered: #1F845A;
+  --ds-chart-success-bold: #216E4E;
+  --ds-chart-success-bold-hovered: #164B35;
+  --ds-chart-discovery: #8F7EE7;
+  --ds-chart-discovery-hovered: #8270DB;
+  --ds-chart-discovery-bold: #5E4DB2;
+  --ds-chart-discovery-bold-hovered: #352C63;
+  --ds-chart-information: #388BFF;
+  --ds-chart-information-hovered: #1D7AFC;
+  --ds-chart-information-bold: #0055CC;
+  --ds-chart-information-bold-hovered: #09326C;
+  --ds-surface: #FFFFFF;
+  --ds-surface-hovered: #F1F2F4;
+  --ds-surface-pressed: #DCDFE4;
+  --ds-surface-overlay: #FFFFFF;
+  --ds-surface-overlay-hovered: #F1F2F4;
+  --ds-surface-overlay-pressed: #DCDFE4;
+  --ds-surface-raised: #FFFFFF;
+  --ds-surface-raised-hovered: #F1F2F4;
+  --ds-surface-raised-pressed: #DCDFE4;
+  --ds-surface-sunken: #F7F8F9;
+  --ds-shadow-overflow: 0px 0px 8px #091E4229, 0px 0px 1px #091E421F;
+  --ds-shadow-overflow-perimeter: #091e421f;
+  --ds-shadow-overflow-spread: #091e4229;
+  --ds-shadow-overlay: 0px 8px 12px #091E4226, 0px 0px 1px #091E424F;
+  --ds-shadow-raised: 0px 1px 1px #091E4240, 0px 0px 1px #091E424F;
+  --ds-opacity-disabled: 0.4;
+  --ds-opacity-loading: 0.2;
+  --ds-UNSAFE-transparent: transparent;
+  --ds-elevation-surface-current: #FFFFFF;
+}
+</style></head><body data-app-state="{&quot;appConfig&quot;:{&quot;auth0Config&quot;:{&quot;callbackUrl&quot;:&quot;https://id.atlassian.com/login/callback&quot;,&quot;clientId&quot;:&quot;tDP5by46cc3gEck7d2vbHZsqsfrDK6t9&quot;,&quot;domain&quot;:&quot;auth.atlassian.com&quot;,&quot;deferRules&quot;:{&quot;apple&quot;:{&quot;clientId&quot;:&quot;hSMIXZp9mqs6yhg1TY3WE1EsDGMtL9OQ&quot;,&quot;callbackUrl&quot;:&quot;https://id.atlassian.com/login/apple/callback&quot;},&quot;microsoft&quot;:{&quot;clientId&quot;:&quot;8txT5SyXwjqIlAtmX3xJbhIyL4pDphh1&quot;,&quot;callbackUrl&quot;:&quot;https://id.atlassian.com/login/microsoft/callback&quot;},&quot;slack&quot;:{&quot;clientId&quot;:&quot;2z1gHggedTDLLYsYcquqcaJiReZUbVCB&quot;,&quot;callbackUrl&quot;:&quot;https://id.atlassian.com/login/slack/callback&quot;}}},&quot;bitbucketSignupUrl&quot;:&quot;https://bitbucket.org/account/signup&quot;,&quot;bitbucketSignupUrlOverrideEnabled&quot;:false,&quot;castlePublishableApiKey&quot;:&quot;pk_yqQBTzLjn7dMC52pBpyctrMqszVKo193&quot;,&quot;googleAuthClientId&quot;:&quot;596149463257-9oquqfivs9on8t8erq23c8qso6vk3cp1.apps.googleusercontent.com&quot;,&quot;marketingConsentApiUrl&quot;:&quot;https://preferences.atlassian.com&quot;,&quot;recaptchaEnable&quot;:true,&quot;recaptchaEnterpriseCheckboxKeySite&quot;:&quot;6LfnteAZAAAAAH3vsGy_TA6P6wBH6jtbMqAeVI8k&quot;,&quot;recaptchaEnterpriseInvisibleKeySite&quot;:&quot;6LcTpeAZAAAAACEXJuZmTp5YVTOUVXnN3TYR_fLM&quot;,&quot;recaptchaEnterpriseScoreKeySite&quot;:&quot;6Le9VxMnAAAAALKRlj8jmKwUYmFTZWcF0y4o9QeD&quot;,&quot;segmentIoKey&quot;:&quot;cb2egpwag7&quot;,&quot;contextPath&quot;:&quot;&quot;},&quot;locale&quot;:&quot;en-US&quot;,&quot;csrfToken&quot;:&quot;7e4ca461-006c-4daa-9b0d-4eb0879d2a8e&quot;,&quot;hashedCsrfToken&quot;:&quot;216cbdf1b8cf081a08ce380e1b26f56607647a705857f5b686018fbd7fa5443d&quot;,&quot;featureFlags&quot;:{&quot;aid_signup.microsoft.auth.enabled&quot;:true,&quot;aid_signup.apple.auth.enabled&quot;:true,&quot;sign-in-with-slack.enabled&quot;:true,&quot;aid-frontend.google.login.outage.advisory.enabled&quot;:false,&quot;aid-frontend.microsoft.login.outage.advisory.enabled&quot;:false,&quot;aid-frontend.apple.login.outage.advisory.enabled&quot;:false,&quot;aid-frontend.slack.login.outage.advisory.enabled&quot;:false,&quot;aid-frontend.enable-subbranding&quot;:false,&quot;aid-frontend.google.one.tap.enabled&quot;:true,&quot;identity.aid-frontend.step-up.mfa-initiate-on-reload-blocked&quot;:true,&quot;identity.aid-frontend.step-up.redirect-on-otp-success-broadcast&quot;:false,&quot;identity.aid-frontend.step-up.send-code-button-for-background-pages&quot;:true,&quot;sign-in-service.turnstile.enabled&quot;:false,&quot;sign-in-service.combo.recaptcha.enabled&quot;:true,&quot;idproxy.logout-migration&quot;:true,&quot;sign-in-service.check-username.recaptcha.enabled&quot;:false},&quot;cobranding&quot;:{},&quot;tenantCloudId&quot;:&quot;efcdfba8-6206-4e9a-955d-1ac7b90c5160&quot;,&quot;logout&quot;:{&quot;userData&quot;:{&quot;displayName&quot;:&quot;Bella Cutie&quot;,&quot;email&quot;:&quot;bellacutie06@gmail.com&quot;,&quot;userId&quot;:&quot;712020:a71223b4-a018-4345-abe5-07bdff583ae0&quot;,&quot;avatarUrl&quot;:&quot;https://secure.gravatar.com/avatar/ecaf44022e27772415338ddcf3777a04?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FBC-1.png&quot;,&quot;associatedSessions&quot;:[]},&quot;autoSubmit&quot;:false},&quot;userId&quot;:&quot;712020:a71223b4-a018-4345-abe5-07bdff583ae0&quot;,&quot;emailAddress&quot;:&quot;bellacutie06@gmail.com&quot;,&quot;ffsId&quot;:&quot;65d5ba4c-78ee-4eee-b18c-81b88f7b7462&quot;,&quot;cspNonce&quot;:&quot;Kd3OKXiZKQEiL6VFNkSc8HHXkpM=&quot;}"> <div id="root"><div class="css-4b375e" style=""><div class="css-q0b2qn"><div class="css-xxwux"><div class="css-tw4vmx"></div><div class="css-auqgo3"><div class="css-d69kqk"><div id="WhiteboxContainer" class="css-1iefl20"><section role="main" class="css-qj62pw"><div data-testid="header" id="ProductHeading" class="css-146wmq"><span aria-label="Atlassian" role="img" class="css-a3l9jr" style="--logo-color: inherit; --logo-fill: currentColor;">
+  <svg viewBox="0 0 190 32" height="32" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true">
+    <defs>
+      <lineargradient x1="99.684716%" y1="15.8138128%" x2="39.8444399%" y2="97.4388388%" id="uid1">
+        <stop stop-color="#0052CC" offset="0%"></stop>
+        <stop stop-color="#2684FF" offset="100%"></stop>
+      </lineargradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="#0052CC">
+      <path fill="url(#uid1)" d="M6.90502605,15.6123193 C6.76436383,15.4302139 6.53773035,15.3340846 6.30742588,15.35884 C6.0771214,15.3835955 5.876643,15.525635 5.7787929,15.7333781 L0.0719979599,27.0218487 C-0.0337056449,27.2310259 -0.0224063827,27.4794358 0.101860917,27.6783741 C0.226128216,27.8773125 0.445645594,27.9984148 0.68202605,27.9984369 L8.62844459,27.9984369 C8.88847261,28.0044096 9.12761649,27.8581627 9.23847268,27.6253781 C10.9526159,24.1210252 9.91378448,18.7926722 6.90502605,15.6123193 Z"></path>
+      <path fill="#2684FF" d="M11.0859556,5.33713587 C8.19309829,9.74089822 7.85921851,15.3267488 10.2073011,20.0371359 L14.0383488,27.6176065 C14.1538739,27.8462194 14.3900332,27.9906411 14.6483769,27.9906653 L22.5933685,27.9906653 C22.829749,27.9906431 23.0492663,27.8695408 23.1735336,27.6706025 C23.2978009,27.4716641 23.3091002,27.2232543 23.2033966,27.014077 C23.2033966,27.014077 12.5147056,5.8619594 12.2460792,5.33290058 C12.1377032,5.11315026 11.9118188,4.97410225 11.6646746,4.97500451 C11.4175304,4.97590676 11.1926893,5.11660025 11.0859556,5.33713587 L11.0859556,5.33713587 Z"></path>
+      <path d="M104.2774,14.3919316 C104.2774,17.1872257 105.588069,19.4065198 110.714802,20.3862846 C113.773504,21.0215787 114.414212,21.5100493 114.414212,22.5187551 C114.414212,23.4985198 113.772077,24.1327551 111.617715,24.1327551 C109.013896,24.0864379 106.462135,23.403307 104.189999,22.1442846 L104.189999,26.6972257 C105.733976,27.4465198 107.772754,28.2822846 111.559566,28.2822846 C116.919251,28.2822846 119.045788,25.9175787 119.045788,22.4033434 M119.045788,22.4033434 C119.045788,19.0892257 117.268858,17.5327551 112.25878,16.4668728 C109.491535,15.8615787 108.821574,15.2566375 108.821574,14.3919316 C108.821574,13.297814 109.811889,12.835814 111.646968,12.835814 C113.860906,12.835814 116.045591,13.4986375 118.113622,14.4208728 L118.113622,10.0691081 C116.130615,9.17615406 113.970906,8.73311319 111.792518,8.7724022 C106.840589,8.7724022 104.2774,10.9048728 104.2774,14.3919316" fill="inherit"></path>
+      <polygon fill="inherit" points="173.129997 9.07000017 173.129997 28.0038825 177.20791 28.0038825 177.20791 13.5657649 178.926691 17.3983531 184.694132 28.0038825 189.820865 28.0038825 189.820865 9.07000017 185.742952 9.07000017 185.742952 21.2891766 184.198975 17.7442355 179.567399 9.07000017"></polygon>
+      <rect fill="inherit" x="142.740005" y="9.07000017" width="4.45677247" height="18.9338824"></rect>
+      <path d="M137.600792,22.4033434 C137.600792,19.0892257 135.823862,17.5327551 130.813784,16.4668728 C128.046539,15.8615787 127.376579,15.2566375 127.376579,14.3919316 C127.376579,13.297814 128.366893,12.835814 130.201972,12.835814 C132.41591,12.835814 134.600595,13.4986375 136.668626,14.4208728 L136.668626,10.0691081 C134.685619,9.17615406 132.52591,8.73311319 130.347522,8.7724022 C125.395593,8.7724022 122.832404,10.9048728 122.832404,14.3919316 C122.832404,17.1872257 124.143073,19.4065198 129.269806,20.3862846 C132.328508,21.0215787 132.969216,21.5100493 132.969216,22.5187551 C132.969216,23.4985198 132.327081,24.1327551 130.172719,24.1327551 C127.568901,24.0864379 125.017139,23.403307 122.745003,22.1442846 L122.745003,26.6972257 C124.28898,27.4465198 126.327758,28.2822846 130.11457,28.2822846 C135.474256,28.2822846 137.600792,25.9175787 137.600792,22.4033434" fill="inherit"></path>
+      <polygon fill="inherit" points="69.6599979 9.07000017 69.6599979 28.0038825 78.8204081 28.0038825 80.2627142 23.9115296 74.1456665 23.9115296 74.1456665 9.07000017"></polygon>
+      <polygon fill="inherit" points="51.5549984 9.07000017 51.5549984 13.1620002 56.5069282 13.1620002 56.5069282 28.0038825 60.9925967 28.0038825 60.9925967 13.1620002 66.2941332 13.1620002 66.2941332 9.07000017"></polygon>
+      <path d="M45.0573091,9.07000017 L39.1785647,9.07000017 L32.5050001,28.0038825 L37.6014102,28.0038825 L38.5474889,24.815059 C40.877531,25.4919503 43.3551322,25.4919503 45.6851743,24.815059 L46.6312529,28.0038825 L51.7287333,28.0038825 L45.0573091,9.07000017 Z M42.1177585,21.4007061 C41.287584,21.4006584 40.4616854,21.2831148 39.6651602,21.0516472 L42.1177585,12.7889413 L44.5703569,21.0544708 C43.7736914,21.2849831 42.9477956,21.4015755 42.1177585,21.4007061 L42.1177585,21.4007061 Z" fill="inherit"></path>
+      <path d="M94.6019534,9.07000017 L88.7235658,9.07000017 L82.0500011,28.0038825 L87.1474815,28.0038825 L88.0935601,24.815059 C90.4236023,25.4919503 92.9012034,25.4919503 95.2312455,24.815059 L96.1773242,28.0038825 L101.274805,28.0038825 L94.6019534,9.07000017 Z M91.6627596,21.4007061 C90.8325851,21.4006584 90.0066865,21.2831148 89.2101613,21.0516472 L91.6627596,12.7889413 L94.1153579,21.0544708 C93.3186924,21.2849831 92.4927966,21.4015755 91.6627596,21.4007061 L91.6627596,21.4007061 Z" fill="inherit"></path>
+      <path d="M163.256954,9.07000017 L157.378566,9.07000017 L150.705002,28.0038825 L155.802482,28.0038825 L156.748561,24.815059 C159.078603,25.4919503 161.556204,25.4919503 163.886246,24.815059 L164.832325,28.0038825 L169.930162,28.0038825 L163.256954,9.07000017 Z M160.315977,21.4007061 C159.485802,21.4006584 158.659903,21.2831148 157.863378,21.0516472 L160.315977,12.7889413 L162.768575,21.0544708 C161.971909,21.2849831 161.146014,21.4015755 160.315977,21.4007061 L160.315977,21.4007061 Z" fill="inherit"></path>
+    </g>
+  </svg></span><div data-testid="header-suffix" id="ProductHeadingSuffix" class="css-azin1o"><h5>Log out of your Atlassian account</h5></div></div><div class="css-1c09xhp"><div class="account-entry css-vnsv1c" data-testid="account-entry"><section class="css-1fsqh7h"><div class="css-1or73ia"><div style="display: inline-block; position: relative; outline: 0px;"><span class="css-ebfy40"><img src="./JiraHome_files/ecaf44022e27772415338ddcf3777a04" alt="" aria-hidden="true" class="css-13ep12v" style="border-radius: 50%;"></span></div></div><section class="css-npojr6"><h2 data-testid="email" class="css-1a76br3">Bella Cutie</h2><p class="css-kusb00">bellacutie06@gmail.com</p></section><section class="css-1fc8vz0"></section></section></div></div><form data-testid="logout-form" class="css-jk6p7n"><div class="css-1s4vgyd"><button id="logout-submit" class="css-1w9zxjf css-1edgkow" data-testid="logout-button" tabindex="0" type="submit"><span class="css-178ag6o">Log out</span></button></div></form><div class="css-1vt5tf0"><a href="https://id.atlassian.com/login/select-account?continue=https%3A%2F%2Fbellacutie.atlassian.net">Log in to another account</a></div><div class="css-pj36kz"></div><div class="css-1ef928d"><footer data-testid="page-footer" class="css-1tn479n"><span aria-label="Atlassian" role="img" class="css-1eu9lrx" style="--logo-color: inherit; --logo-fill: currentColor;">
+  <svg viewBox="0 0 190 32" height="32" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true">
+    <defs>
+      <lineargradient x1="99.684716%" y1="15.8138128%" x2="39.8444399%" y2="97.4388388%" id="uid2">
+        <stop stop-color="#344563" offset="0%"></stop>
+        <stop stop-color="#7A869A" offset="100%"></stop>
+      </lineargradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="#505F79">
+      <path fill="url(#uid2)" d="M6.90502605,15.6123193 C6.76436383,15.4302139 6.53773035,15.3340846 6.30742588,15.35884 C6.0771214,15.3835955 5.876643,15.525635 5.7787929,15.7333781 L0.0719979599,27.0218487 C-0.0337056449,27.2310259 -0.0224063827,27.4794358 0.101860917,27.6783741 C0.226128216,27.8773125 0.445645594,27.9984148 0.68202605,27.9984369 L8.62844459,27.9984369 C8.88847261,28.0044096 9.12761649,27.8581627 9.23847268,27.6253781 C10.9526159,24.1210252 9.91378448,18.7926722 6.90502605,15.6123193 Z"></path>
+      <path fill="#7A869A" d="M11.0859556,5.33713587 C8.19309829,9.74089822 7.85921851,15.3267488 10.2073011,20.0371359 L14.0383488,27.6176065 C14.1538739,27.8462194 14.3900332,27.9906411 14.6483769,27.9906653 L22.5933685,27.9906653 C22.829749,27.9906431 23.0492663,27.8695408 23.1735336,27.6706025 C23.2978009,27.4716641 23.3091002,27.2232543 23.2033966,27.014077 C23.2033966,27.014077 12.5147056,5.8619594 12.2460792,5.33290058 C12.1377032,5.11315026 11.9118188,4.97410225 11.6646746,4.97500451 C11.4175304,4.97590676 11.1926893,5.11660025 11.0859556,5.33713587 L11.0859556,5.33713587 Z"></path>
+      <path d="M104.2774,14.3919316 C104.2774,17.1872257 105.588069,19.4065198 110.714802,20.3862846 C113.773504,21.0215787 114.414212,21.5100493 114.414212,22.5187551 C114.414212,23.4985198 113.772077,24.1327551 111.617715,24.1327551 C109.013896,24.0864379 106.462135,23.403307 104.189999,22.1442846 L104.189999,26.6972257 C105.733976,27.4465198 107.772754,28.2822846 111.559566,28.2822846 C116.919251,28.2822846 119.045788,25.9175787 119.045788,22.4033434 M119.045788,22.4033434 C119.045788,19.0892257 117.268858,17.5327551 112.25878,16.4668728 C109.491535,15.8615787 108.821574,15.2566375 108.821574,14.3919316 C108.821574,13.297814 109.811889,12.835814 111.646968,12.835814 C113.860906,12.835814 116.045591,13.4986375 118.113622,14.4208728 L118.113622,10.0691081 C116.130615,9.17615406 113.970906,8.73311319 111.792518,8.7724022 C106.840589,8.7724022 104.2774,10.9048728 104.2774,14.3919316" fill="inherit"></path>
+      <polygon fill="inherit" points="173.129997 9.07000017 173.129997 28.0038825 177.20791 28.0038825 177.20791 13.5657649 178.926691 17.3983531 184.694132 28.0038825 189.820865 28.0038825 189.820865 9.07000017 185.742952 9.07000017 185.742952 21.2891766 184.198975 17.7442355 179.567399 9.07000017"></polygon>
+      <rect fill="inherit" x="142.740005" y="9.07000017" width="4.45677247" height="18.9338824"></rect>
+      <path d="M137.600792,22.4033434 C137.600792,19.0892257 135.823862,17.5327551 130.813784,16.4668728 C128.046539,15.8615787 127.376579,15.2566375 127.376579,14.3919316 C127.376579,13.297814 128.366893,12.835814 130.201972,12.835814 C132.41591,12.835814 134.600595,13.4986375 136.668626,14.4208728 L136.668626,10.0691081 C134.685619,9.17615406 132.52591,8.73311319 130.347522,8.7724022 C125.395593,8.7724022 122.832404,10.9048728 122.832404,14.3919316 C122.832404,17.1872257 124.143073,19.4065198 129.269806,20.3862846 C132.328508,21.0215787 132.969216,21.5100493 132.969216,22.5187551 C132.969216,23.4985198 132.327081,24.1327551 130.172719,24.1327551 C127.568901,24.0864379 125.017139,23.403307 122.745003,22.1442846 L122.745003,26.6972257 C124.28898,27.4465198 126.327758,28.2822846 130.11457,28.2822846 C135.474256,28.2822846 137.600792,25.9175787 137.600792,22.4033434" fill="inherit"></path>
+      <polygon fill="inherit" points="69.6599979 9.07000017 69.6599979 28.0038825 78.8204081 28.0038825 80.2627142 23.9115296 74.1456665 23.9115296 74.1456665 9.07000017"></polygon>
+      <polygon fill="inherit" points="51.5549984 9.07000017 51.5549984 13.1620002 56.5069282 13.1620002 56.5069282 28.0038825 60.9925967 28.0038825 60.9925967 13.1620002 66.2941332 13.1620002 66.2941332 9.07000017"></polygon>
+      <path d="M45.0573091,9.07000017 L39.1785647,9.07000017 L32.5050001,28.0038825 L37.6014102,28.0038825 L38.5474889,24.815059 C40.877531,25.4919503 43.3551322,25.4919503 45.6851743,24.815059 L46.6312529,28.0038825 L51.7287333,28.0038825 L45.0573091,9.07000017 Z M42.1177585,21.4007061 C41.287584,21.4006584 40.4616854,21.2831148 39.6651602,21.0516472 L42.1177585,12.7889413 L44.5703569,21.0544708 C43.7736914,21.2849831 42.9477956,21.4015755 42.1177585,21.4007061 L42.1177585,21.4007061 Z" fill="inherit"></path>
+      <path d="M94.6019534,9.07000017 L88.7235658,9.07000017 L82.0500011,28.0038825 L87.1474815,28.0038825 L88.0935601,24.815059 C90.4236023,25.4919503 92.9012034,25.4919503 95.2312455,24.815059 L96.1773242,28.0038825 L101.274805,28.0038825 L94.6019534,9.07000017 Z M91.6627596,21.4007061 C90.8325851,21.4006584 90.0066865,21.2831148 89.2101613,21.0516472 L91.6627596,12.7889413 L94.1153579,21.0544708 C93.3186924,21.2849831 92.4927966,21.4015755 91.6627596,21.4007061 L91.6627596,21.4007061 Z" fill="inherit"></path>
+      <path d="M163.256954,9.07000017 L157.378566,9.07000017 L150.705002,28.0038825 L155.802482,28.0038825 L156.748561,24.815059 C159.078603,25.4919503 161.556204,25.4919503 163.886246,24.815059 L164.832325,28.0038825 L169.930162,28.0038825 L163.256954,9.07000017 Z M160.315977,21.4007061 C159.485802,21.4006584 158.659903,21.2831148 157.863378,21.0516472 L160.315977,12.7889413 L162.768575,21.0544708 C161.971909,21.2849831 161.146014,21.4015755 160.315977,21.4007061 L160.315977,21.4007061 Z" fill="inherit"></path>
+    </g>
+  </svg></span><div class="css-ftz4sr">One account for Jira, Confluence, Trello and <a id="atlassian-account-link-more-short" target="_blank" rel="noreferrer noopener" aria-label="Learn more about Atlassian Account" href="https://support.atlassian.com/atlassian-account/docs/what-is-an-atlassian-account/" class="css-1gc25jr">more</a>.</div></footer><ul class="fine-print"><li><a href="https://www.atlassian.com/legal/privacy-policy" target="_blank" rel="noreferrer noopener" class="css-1gc25jr">Privacy Policy</a></li><p class="css-1x34ed1">•</p><li><a href="https://www.atlassian.com/legal/user-notice" target="_blank" rel="noreferrer noopener" class="css-1gc25jr">User Notice</a></li></ul></div></section></div></div></div></div></div></div></div> <script type="module" src="./JiraHome_files/index.33658faf.js.download" crossorigin="anonymous"></script><script src="./JiraHome_files/index.db73bd5f.js.download" nomodule="" defer="" crossorigin="anonymous"></script> <script nonce="">window.onload=function(){if(document.getElementById("javaScriptLoadError")&&(document.getElementById("javaScriptLoadError").style.display="block","function"==typeof window.Promise&&window.Promise.allSettled))throw Error("Javascript load error screen displayed to user")};</script> <div class="atlaskit-portal-container" style="display: flex;"><div class="atlaskit-portal" style="z-index: 600;"><div class="css-mplkkk"></div></div></div></body></html>

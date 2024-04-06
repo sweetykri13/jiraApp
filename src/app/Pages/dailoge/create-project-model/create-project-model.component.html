@@ -1,0 +1,60 @@
+<div>
+  <div style="border-bottom: groove; border-bottom: 2px solid gainsboro;">
+    <h1 mat-dialog-title style="margin-bottom: 5px; height: 54px; color: #172B4D">Create New Project</h1>
+  </div>
+  <div>
+    <mat-dialog-content>
+      <!-- Project Selection -->
+      <div style="border-bottom: groove;border-bottom: 1px solid gainsboro;">
+        <div>
+          <span style="margin-bottom:160px;font-size:15px;font-weight:500">*Project Name</span>
+          <input matInput type="text" placeholder="project title" style="margin-left:18px;border-radius:3px;" /> <!-- Added matInput -->
+        </div>
+        <div>
+          <span style="font-size: 15px; margin-left:43px; font-weight:500">*Priority</span>
+          <select class="dropfield" style="margin-left:20px;">
+            <option style="height:30px;">1</option>
+          </select>
+        </div>
+      </div>
+      <!-- Issue Type and Status Selection -->
+      <div style="margin-top:-4px;">
+        <div>
+          <span style="font-size: 15px;margin-left:46px; font-weight: 500">*Status</span>
+          <select class="dropfield" style="margin-left:22px;">
+            <option>2</option>
+          </select>
+        </div>
+      </div>
+      <div style="">
+        <span style="margin-bottom:160px;margin-left:14px; font-size:15px;font-weight:500">*Story Point</span>
+        <input matInput style="margin-left: 22px; border-radius: 3px;" type="text" placeholder="story point" /> <!-- Added matInput -->
+      </div>
+      <!-- Assignee and Reporter Selection -->
+      <div style="margin-top:10px">
+        <span style=" font-size: 15px;margin-left:35px; font-weight: 500">*Deadline</span>
+        <input type="date" style="margin-left: 19px; border-radius: 3px;" class="dropfield">
+      </div>
+
+      <div>
+      </div>
+      <div>
+        <span style="font-size: 15px;margin-left:17px; font-weight:500">*Description</span>
+        
+          <input type="text" style="margin-left:15px; width: 526px; border-radius:4px; height: 164px; margin-top: 7px; " />
+        
+      </div>
+      <div style="">
+        <app-date-picker></app-date-picker>
+      </div>
+    </mat-dialog-content>
+  </div>
+  
+  <!-- Action Buttons -->
+  <div >
+    <mat-dialog-actions style="">
+      <button mat-button mat-dialog-close class=" btn bg-primary" style="color: white; margin-right: 20px; margin-left: 290px;">Cancel</button>
+      <button mat-button [mat-dialog-close]="true" class="btn bg-primary" style="color:white">Create</button>
+    </mat-dialog-actions>
+  </div>
+</div>

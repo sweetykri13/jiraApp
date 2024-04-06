@@ -1,0 +1,14 @@
+<div>
+  <div style="border-bottom: 1px solid gainsboro; height: 60px;">
+    <h1 mat-dialog-title>{{ ProjectDetails.projectName }}</h1>
+  </div>
+  <div>
+    <mat-dialog-content style="font-size:27px;margin-top:20px;">Do you want to delete this project?</mat-dialog-content>
+  </div>
+  <div>
+    <mat-dialog-actions style="margin-left:380px;margin-top:20px;">
+      <button mat-button mat-dialog-close class="cancelbutton">Cancel</button>
+      <button mat-button class="deletebutton" [mat-dialog-close]="true" (click)="deleteProjectById(ProjectDetails.projectId)">Delete</button>
+    </mat-dialog-actions>
+  </div>
+</div>

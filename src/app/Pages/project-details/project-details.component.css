@@ -1,0 +1,55 @@
+.fieldset1 {
+  border: solid 1px gainsboro;
+  padding-top: 5px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  margin-left: 1100px;
+  margin-top: 140px;
+  height: 500px;
+  width: 330px;
+  color: #42526e;
+}
+.headingNa {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #42526e;
+  margin-left:20px;
+}
+.headingNam {
+  margin-top: 8px;
+  color: #626F86;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom:25px;
+}
+
+.centered-fieldset {
+  margin: auto;
+  width: fit-content;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.dropfield {
+  height: 31px;
+  border-color: lightgray;
+  width: 191px;
+  /*margin-left: 58px;*/
+  border-radius: 3px;
+  margin-bottom: 24px;
+  margin-top: 2px;
+}
+/*.project-name {
+  margin-right: 10px;
+}
+
+.priority {
+  font-size: 20px;
+}*/
+

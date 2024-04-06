@@ -1,0 +1,24 @@
+.cancelbutton {
+  color: white;
+  border: blue;
+  border-radius: 4px;
+  height: 31px;
+  width: 93px;
+  background-color: gainsboro;
+  color: dimgrey;
+  border-radius: 4px;
+  margin-left: 248px;
+}
+
+th {
+  color: gray;
+}
+
+.story {
+  height: 19px;
+  color: white;
+  background-color: darkgray;
+  border-radius: 18px;
+  margin-left: 565px;
+  font-size: 14px;
+}

@@ -1,0 +1,58 @@
+<app-layout></app-layout>
+<div class="container" style="position: relative;">
+  <img src="assets/jirahomepage.jpg" alt="Background Image" style="width: 100%; height: 100vh; object-fit: cover;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.08);"></div>
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+    <div style="background-color: white; height: 590px; width: 430px;">
+      <div style="display: flex ;margin-bottom:13px;">
+        <img src="assets/Jira.jpg" style="height: 42px; margin-left: 40px; margin-right: -25px;margin-top:10px" />
+        <span style="font-size: 34px; color: #0052CC; font-weight: 600; margin-right: 20px; margin-left: 23px;padding-top:20px;">Jira Software</span>
+      </div>
+      <div>
+        <span style="font-size: 17px; font-weight: 500; color: #344563 ">Sign up to continue</span>
+      </div>
+      <form>
+        <div style="margin-top:20px;">
+          <label style="margin-left:-170px;font-size:16px;font-weight:500;color:#344563;margin-bottom:5px;">First Name</label>
+          <div>
+            <input type="text" style="width:250px;height:32px;border-color:gainsboro">
+          </div>
+        </div>
+        <div style="margin-top:20px;">
+          <label style="margin-left:-173px;font-size:16px;font-weight:500;color:#344563;margin-bottom:5px;">Last Name</label>
+          <div>
+            <input type="text" style="width:250px;height:32px;border-color:gainsboro">
+          </div>
+        </div>
+        <div style="margin-top:20px;">
+          <label style="margin-left:-196px;font-size:16px;font-weight:500;color:#344563;margin-bottom:5px;">EmailId</label>
+          <div>
+            <input type="text" style="width:250px;height:32px;border-color:gainsboro">
+          </div>
+        </div>
+        <div style="margin-top:20px;">
+          <label style="margin-left:-179px;font-size:16px;font-weight:500;color:#344563;margin-bottom:5px;">Password</label>
+          <div>
+            <input type="text" style="width:250px;height:32px;border-color:gainsboro">
+          </div>
+        </div>
+        <div style="margin-top:20px;">
+          <label style="margin-left:-120px;font-size:16px;font-weight:500;color:#344563;margin-bottom:5px;">Confirm Password</label>
+          <div>
+            <input type="text" style="width:250px;height:32px;border-color:gainsboro">
+          </div>
+          <div style="margin-top:25px;">
+            <button class="cancelbutton" style="margin-bottom:10px; font-size: 15px; width: 97px; margin-right:38px;margin-left:5px;"
+                    data-bs-toggle="modal">
+              Create
+            </button>
+          </div>
+          <div>
+            <a style="font-size: 13px; font-weight: 400; color: #0052CC; "> Already have an Atlassian account?<a [routerLink]="['/login']"> Log in</a></a>
+          </div>
+         
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

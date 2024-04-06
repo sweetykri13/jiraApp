@@ -1,0 +1,87 @@
+<!--<app-layout ></app-layout>-->
+
+<nav class="navbar navbar-expand-lg bg-white fixed-top mynav pb-0 pt-0" style="height: 60px; border-bottom: groove; border-bottom: 1px solid gainsboro;">
+  <div class="container-fluid">
+    <button mat-icon-button type="button" (click)="openSideBar()">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <img src="assets/Jira.jpg" style="height: 32px; margin-left: -5px; margin-right: -19px;" />
+    <a class="navbar-brand align-self-baseline" style="font-size: 26px;margin-left:11px; color: #344563;margin-top:6px;margin-right:22px;">Jira Software</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="margin-right: 90px; font-weight: 500;">
+      <ul class="navbar-nav me-auto mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="navbar-brand dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 17px; color: #344563; text-align: center; ">Your work</a>
+          <ul class="dropdown-menu" style="margin-left:-8px;margin-top:13px;">
+            <li><a class="dropdown-item" href="#" style="color: #0d6efd;font-size:14px;font-weight:500">Assigned To Me</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="board" [routerLink]="['/board']">Board</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="navbar-brand dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 17px;color:#344563">Projects</a>
+          <ul class="dropdown-menu" style="margin-left:-8px;margin-top:13px; ">
+            <li><a class="dropdown-item" href="#" [routerLink]="['/project']">View All Project</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" style="--bs-dropdown-link-hover-color:#0d6efd" (click)="openCreateProjectDailoge()">Create Project</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="navbar-brand dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 17px;color: #344563">Filters</a>
+          <ul class="dropdown-menu" style="margin-left:-8px;margin-top:13px; ">
+            <li><a class="dropdown-item" href="#" [routerLink]="['/projectDetails']">View All Filter</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#" [routerLink]="['/issue']">View All Issue</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="navbar-brand dropdown-toggle" data-bs-toggle="dropdown" style="font-size: 17px;color: #344563">Teams</a>
+          <ul class="dropdown-menu" style="margin-left:-8px;margin-top:13px; ">
+            <li><a class="dropdown-item" [routerLink]="['/yourTeam']">Your Team</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" (click)="OpenInviteTeam()">Invite people to join JIRA</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" (click)="OpenCreateTeam()">Create Team</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="nav-item">
+        <span class="nav-link active" aria-current="page">
+          <button class="cancelbutton" style="font-size: 15px; width: 67px; margin-right:438px;margin-left:5px;"
+                  data-bs-toggle="modal" (click)="openCreateDailoge()">
+            Create
+          </button>
+          <ul id="dropdown-menu" class="dropdown-menu" style="margin-left:-8px;margin-top:13px; display: none;">
+            <li><a class="dropdown-item" href="#">View All Filter</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">View All Issue</a></li>
+          </ul>
+        </span>
+      </div>
+    </div>
+    <div style=" margin-left: 40px; color:#344563">
+      <input #searchInput type="search" class="" placeholder=" Search" style="background-image: url('assets/search.svg'); background-repeat: no-repeat; background-position: 10px center; border: 2px solid gainsboro; font-size: 17px; color: #344563; border-radius: 5px; margin-left: -206px; width: 180px; height: 32px;padding-left:36px; " (focus)="onFocus()"
+             (blur)="onBlur()" />
+    </div>
+    <div>
+      <i style='font-size: 22px; margin-left: 18px; color:#344563' class='fa' (click)="openHelpSideBar()">&#xf059;</i>
+      <i style='font-size: 20px; margin-left: 18px; color:#344563' class='fa' (click)="openSideSettingBar()">&#xf085;</i>
+      <i style='font-size: 25px; margin-left: 25px; color:#344563;margin-right:5px;' class='fa' (click)="openSideUserBar()">&#xf2bd;</i>
+    </div>
+  </div>
+</nav>
+<app-nav-side-bar [isOpen]="sideBarOpen" (close)="closeSideBar()"></app-nav-side-bar>
+<app-setting-side-bar [isOpen]="sideBarSettingOpen" (close)="closeSideBar()"></app-setting-side-bar>
+<app-user-profile-sidebar [isOpen]="sideBarUserOpen" (close)="closeSideBar()"></app-user-profile-sidebar>
+<app-help-side-bar [isOpen]="sideBarhelpOpen" (close)="closeSideBar()"></app-help-side-bar>

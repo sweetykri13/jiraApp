@@ -1,0 +1,22 @@
+
+<div>
+  <div>
+    <h1 mat-dialog-title style="border-bottom: 1px solid gainsboro; height: 60px; color: #172B4D">Update Project Name</h1>
+  </div>
+  <div>
+    <mat-dialog-content>
+      <span style="margin-bottom:50px;font-size:21px;">Project Name</span>
+      <div>
+        <input type="text" style="border-radius: 4px; color: gray;font-size:19px; margin-top:7px; width: 527px; height: 40px; margin-bottom: 25px;" [(ngModel)]="ProjectDetails.projectName" placeholder="Project Name">
+      </div>
+      <span style="font-size: 21px;">Project Description</span>
+      <div>
+        <input type="text" style="border-radius: 4px; font-size: 19px; color: gray; margin-top: 7px; width: 527px; height: 40px; " [(ngModel)]="ProjectDetails.shortName" placeholder="Short Name">
+      </div>
+    </mat-dialog-content>
+  </div>
+  <mat-dialog-actions style="margin-left:380px;margin-top:20px;">
+    <button mat-button mat-dialog-close class="cancelbutton">Cancel</button>
+    <button mat-button [mat-dialog-close]="true" class="deletebutton" (click)="updateProjectDetails(ProjectDetails.projectId,ProjectDetails.projectName,ProjectDetails.shortName)">Update</button>
+  </mat-dialog-actions>
+</div>

@@ -1,0 +1,55 @@
+<div style="width:239px;margin-top:60px;" class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" data-bs-backdrop="false">
+  <div class="offcanvas-header" style="border-bottom:2px solid gainsboro">
+
+    <h5 style="font-weight: 500;font-size:14px;margin-top:20px;margin-bottom:1px; color: #626F86; " class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Filter</h5>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+  <div class="offcanvas-body">
+    <div style="margin-top:20px;margin-bottom:30px;">
+      <p>My open task</p>
+    </div>
+    <div style="margin-bottom:30px;">
+      <p>My open issue</p>
+    </div>
+    <div style="margin-bottom:30px;">
+      <p>Reported by me</p>
+    </div>
+    <div style="margin-bottom:30px;">
+      <p>Done issue</p>
+    </div>
+    <div style="border-bottom: 2px solid gainsboro">
+      <div style="margin-bottom:40px;">
+        <p>Done task</p>
+      </div>
+    </div>
+    <div style="margin-bottom:20px;margin-top:40px;">
+      <p>View All issue</p>
+    </div>
+    <div style="margin-bottom:20px;">
+      <p>View All Task</p>
+    </div>
+  </div>
+  <div>
+  </div>
+</div>
+<div [ngClass]="{'offcanvas': true, 'offcanvas-start': isOpen}" id="demo">
+   Sidebar content goes here 
+   You can place your sidebar items here 
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+     Add more sidebar items as needed 
+  </ul>
+</div>
+
+<!--<div [class.open]="isOpen" id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>-->
+
+
+
